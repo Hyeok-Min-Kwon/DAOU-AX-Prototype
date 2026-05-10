@@ -1,0 +1,55 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# uv
+.uv-cache/
+
+# ===== Node / Frontend =====
+node_modules/
+dist/
+build/
+.vite/
+*.local
+.eslintcache
+
+# ===== Notebooks =====
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# ===== Data & Models (산출물) =====
+data/*
+!data/.gitkeep
+backend/models/*
+!backend/models/.gitkeep
+
+# ===== Environment =====
+.env
+.env.*
+!.env.example
+
+# ===== IDE / OS =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
