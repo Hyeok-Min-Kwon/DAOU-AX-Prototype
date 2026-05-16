@@ -91,8 +91,8 @@ DAOU-AX-Prototype/
 ## 🗺 로드맵
 
 - [x] 프로젝트 구조 설계
-- [ ] Docker 기반 개발 환경 셋업
-- [ ] **Layer 1** — 합성 캠페인 데이터 generator
+- [x] Docker 기반 개발 환경 셋업
+- [x] **Layer 1** — 합성 캠페인 데이터 generator
 - [ ] **Layer 2** — 3개 예측 모델 학습 및 평가
 - [ ] **Layer 3** — FastAPI 엔드포인트 + React 대시보드
 - [ ] 통합 데모 + 결과 분석 노트북
