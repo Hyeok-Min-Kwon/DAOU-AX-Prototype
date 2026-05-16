@@ -11,6 +11,8 @@ services:
       - ./backend:/app/backend
       # 생성된 합성 데이터 호스트에서도 접근 가능하게
       - ./data:/app/data
+      # 노트북도 호스트에서 직접 열람·실행 가능하게
+      - ./notebooks:/app/notebooks
     environment:
       - PYTHONPATH=/app/backend
     # Dockerfile의 CMD를 명시적으로 재기술 (compose에서 가시성 ↑)
